@@ -1,24 +1,18 @@
 import { tw } from 'twind';
-import FeatureSvg from '@/constants/svg/features.svg';
+import FeatureSvg from '@/constants/svg/blockchain_era.svg';
 
 const listItems = [
   {
-    title: `Designers`,
-    description: `Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
-    excepteur cillum consequat consectetur duis magna qui eu consequat occaecat.
-    Deserunt nisi sit.`,
+    title: `Ideate`,
+    description: `Come and have a seat . Lets see we convert your idea to a cryptocurrency platform`,
   },
   {
-    title: `Developers`,
-    description: `Pariatur consectetur laboris exercitation duis laboris.
-    Commodo duis fugiat magna fugiat et ut anim elit. Tempor aute ex qui
-    tempor tempor.`,
+    title: `Plan`,
+    description: `Discuss with our engineer and designers to make a commercial successful business.`,
   },
   {
-    title: `Product owners`,
-    description: `Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim
-    dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui aliquip.
-    Adipisicing.`,
+    title: `Execute`,
+    description: `Lets see how the App makes money and gain popularity in time `,
   },
 ];
 
