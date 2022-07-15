@@ -7,7 +7,6 @@ import amazon from '@/constants/svg/amazon.svg';
 import uniqlo from '@/constants/svg/uniqlo.svg';
 import wallmart from '@/constants/svg/wallmart.svg';
 
-
 const headerStyle = css`
   background-color: #ffffff;
   min-height: calc(100vh - 6rem);
@@ -35,10 +34,10 @@ const Header = () => (
         <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Our Happy Client</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
        
-          <aliexpress className={tw(`m-12`)} width={120} />
-          <amazon className={tw(`m-12`)} width={120} />
-          <uniqlo className={tw(`m-12`)} width={120} />
-          <wallmart className={tw(`m-12`)} width={120} />
+          <aliexpress className={tw(`m-12`)} width={140} />
+          <amazon className={tw(`m-12`)} width={140} />
+          <uniqlo className={tw(`m-12`)} width={140} />
+          <wallmart className={tw(`m-12`)} width={140} />
       
         </div>
       </div>
