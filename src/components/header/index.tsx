@@ -35,10 +35,10 @@ const Header = () => (
         <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Our Happy Client</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
        
-          <aliexpress className={tw(`m-12`)} width={100} />
-          <amazon className={tw(`m-12`)} width={100} />
-          <uniqlo className={tw(`m-12`)} width={100} />
-          <wallmart className={tw(`m-12`)} width={100} />
+          <aliexpress className={tw(`m-12`)} width={120} />
+          <amazon className={tw(`m-12`)} width={120} />
+          <uniqlo className={tw(`m-12`)} width={120} />
+          <wallmart className={tw(`m-12`)} width={120} />
       
         </div>
       </div>
