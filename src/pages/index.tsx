@@ -22,7 +22,7 @@ export default function Home() {
         <ListSection />
         <FeatureSection />
         <CasesSection />
-        <SocialProof />
+     
         <PricingTable />
       </main>
       <Footer />
