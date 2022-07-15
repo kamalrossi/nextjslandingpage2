@@ -1,7 +1,7 @@
 import { tw, css } from 'twind/css';
 import Button from '@/components/button';
 
-import Netlify from '@/constants/svg/netlify.svg';
+
 import aliexpress from '@/constants/svg/aliexpress.svg';
 import amazon from '@/constants/svg/amazon.svg';
 import uniqlo from '@/constants/svg/uniqlo.svg';
@@ -35,10 +35,10 @@ const Header = () => (
         <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Our Happy Client</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
        
-          <aliexpress className={tw(`m-12`)} width={60} />
-          <amazon className={tw(`m-12`)} width={60} />
-          <uniqlo className={tw(`m-12`)} width={60} />
-          <wallmart className={tw(`m-12`)} width={60} />
+          <aliexpress className={tw(`m-12`)} width={100} />
+          <amazon className={tw(`m-12`)} width={100} />
+          <uniqlo className={tw(`m-12`)} width={100} />
+          <wallmart className={tw(`m-12`)} width={100} />
       
         </div>
       </div>
