@@ -3,14 +3,11 @@ import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 
 const features = [
-  `Laboris nulla`,
-  `Lorem pariatur nisi`,
-  `Id aute amet pariatur`,
-  `Do duis sint aliquip`,
-  `Nostrud duis tempor`,
-  `Consequat eiusmod`,
-  `Reprehenderit`,
-  `Adipisicing reprehenderit`,
+  `24 Hours customer care`,
+  `5GB storage`,
+  `10 persons in company`,
+  `Unlimited networkt traffic`,
+  
 ];
 
 const PricingTable = () => (
@@ -18,11 +15,9 @@ const PricingTable = () => (
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex`)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Are you ready?</h2>
+          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Usage based Plans</h2>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500`)}>
-            Lorem id ullamco pariatur eiusmod labore qui deserunt incididunt deserunt nostrud. Tempor duis in
-            adipisicing exercitation ipsum nostrud esse. Reprehenderit cupidatat sint est deserunt id eiusmod amet
-            aliqua officia.
+            We make things simpler for you. Just choose the wallet pricing what fits your need.
           </p>
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
@@ -54,12 +49,12 @@ const PricingTable = () => (
             lg:flex lg:flex-col lg:justify-center lg:p-12`,
           )}
         >
-          <p className={tw(`text-lg font-medium text-gray-800`)}>If you order now...</p>
+          <p className={tw(`text-lg font-medium text-gray-800`)}>Starting from</p>
           <div className={tw(`my-4 flex items-center justify-center text-6xl leading-none font-bold text-gray-800`)}>
-            $99/mo
+            $9/mo
           </div>
           <Button primary modifier="mt-6">
-            Contact sales
+           Try now
           </Button>
         </div>
       </div>
