@@ -14,34 +14,34 @@ type Link = {
 
 const links = [
   {
-    label: `Features`,
+    label: `Home`,
     href: `/`,
   },
   {
-    label: `Testimonials`,
+    label: `Feature`,
     href: `/`,
   },
   {
-    label: `Pricing`,
+    label: `Product`,
     href: `/`,
   },
   {
-    label: `Blog`,
+    label: `Plans`,
     href: `/`,
   },
 ];
 
 const secondaryLinks = [
   {
-    label: `Contact sales`,
+    label: `Company story`,
     href: `/`,
   },
   {
-    label: `Log in`,
+    label: `Testimonial`,
     href: `/`,
   },
   {
-    label: `Get Started`,
+    label: `Contact us`,
     href: `/`,
   },
 ];
@@ -120,7 +120,7 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="logo.svg" alt="logo" width={48} height={48} />
+              <img className={tw(`h-12 w-12`)} src="greenleave.svg" alt="logo" width={48} height={48} />
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
