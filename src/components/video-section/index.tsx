@@ -1,5 +1,5 @@
 import { tw } from 'twind';
-import Preferences from '@/constants/svg/video.png';
+import Preferences from '@/constants/svg/video.svg';
 import Play from '@/constants/svg/play.svg';
 
 const PlayButton = () => (
@@ -12,7 +12,7 @@ const PlayButton = () => (
     aria-label="play video"
   >
     <Play className={tw(`w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0`)} />
-    <span className={tw(`ml-3`)}>Watch the video </span>
+    <span className={tw(`ml-3`)}>Watch how our wallet works </span>
   </button>
 );
 
