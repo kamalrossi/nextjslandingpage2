@@ -2,10 +2,10 @@ import { tw, css } from 'twind/css';
 import Button from '@/components/button';
 
 import Netlify from '@/constants/svg/netlify.svg';
-import aliexpress from '@/constants/aliexpress.png';
-import amazon from '@/constants/amazon.png';
-import uniqlo from '@/constants/uniqlo.png';
-import wallmart from '@/constants/wallmart.png';
+import aliexpress from '@/constants/svg/aliexpress.svg';
+import amazon from '@/constants/svg/amazon.svg';
+import uniqlo from '@/constants/svg/uniqlo.svg';
+import wallmart from '@/constants/svg/wallmart.svg';
 
 
 const headerStyle = css`
